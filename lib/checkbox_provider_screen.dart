@@ -6,12 +6,12 @@ import 'package:provider/provider.dart';
 
 
 
-class CheckBoxProviderScreen extends StatefulWidget {
-  @override
-  _CheckBoxProviderScreenState createState() => _CheckBoxProviderScreenState();
-}
-class _CheckBoxProviderScreenState extends State<CheckBoxProviderScreen> {
-
+// class CheckBoxProviderScreen extends StatefulWidget {
+//   @override
+//   _CheckBoxProviderScreenState createState() => _CheckBoxProviderScreenState();
+// }
+// class _CheckBoxProviderScreenState extends State<CheckBoxProviderScreen> {
+class CheckBoxProviderScreen extends StatelessWidget {   /// [cox it's provider]
 
   final List<Drink> drinks = [];
 
